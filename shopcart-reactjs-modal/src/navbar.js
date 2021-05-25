@@ -1,8 +1,11 @@
 import { Link, BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {faRegistered, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Cart from "./cart"
+// import Cart from "./cart"
 // import DisplayProducts from "./displayProducts"
+import Cart from "./cart";
+import FbLogin from './facebook-login';
+
 
 export default function NavBar(props){
     return (
@@ -33,8 +36,12 @@ export default function NavBar(props){
                     <Route path="/cart">
                         <Cart prod= {props.prods} />
                     </Route>
+                    <Route path="/login">
+                        <FbLogin />
+                    </Route>
                 </Switch>
             </Router>
+
         </div>
     )
 }
