@@ -1,0 +1,104 @@
+.navbar {
+  background-color: #6dd3ff;
+  color: black;
+  margin: auto;
+  padding:10px;
+  min-height: 100px;
+  height: 175px;
+  display: block !important;
+}
+
+.titleLogo {
+  color: white;
+  text-decoration: none;
+  padding:2rem;
+}
+
+.svg-inline--fa.fa-1x{
+  margin-left:0.6rem;
+}
+
+.Home {
+  margin-top: 8rem;
+}
+
+.itemAmount{
+  padding: 20px;
+}
+
+.shoppingCart{
+  float: right;
+  padding-right: 100px;
+  padding-top: 50px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  display: flex;
+}
+
+.cartIcon{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.GroupItem{
+  padding: 50px !important;
+}
+
+.quantityDisplay{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-top:24px;
+}
+
+.itemcontent{
+  display: flex;
+}
+
+.itemQuantity {
+  border: 3px solid grey;
+  padding: 10px;
+}
+
+.updateButton{
+  height: 30px;
+  margin: 60px 0 0 20px;
+}
+
+.card-text form{
+  width: 250px;
+}
+
+.cartDisplay{
+  display: flex;
+  padding: 20px;
+  border-style: solid;
+  width: 1000px;
+  margin: 10px;
+}
+
+.Cart{
+  background-color: white;
+  padding: 50px;
+  margin-top:8rem;
+}
+
+#cartBtn{
+  margin-top: 20px;
+}
+
+/*---- Sorting Title Display ------*/
+.priceTitle {
+  margin-left:3rem;
+}
+
+.sortDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.selectOption {
+  margin-left:1rem;
+}

@@ -1,5 +1,5 @@
 import { Link, BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {faRegistered, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
+import {faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import Cart from "./cart"
 // import DisplayProducts from "./displayProducts"
@@ -26,8 +26,8 @@ export default function NavBar(props){
                     <span className="font-weight-bold text-white">{props.totalValue}</span>
                 </p>
                 <Switch>
-                    <Route exact path="/">
-                        {/* <DisplayProducts 
+                     <Route exact path="/">
+                     {/* <DisplayProducts 
                             ShoppingItems={props.prods}          
                             onIncrement={props.handleIncrement}
                             onDecrement={props.handleDecrement}
